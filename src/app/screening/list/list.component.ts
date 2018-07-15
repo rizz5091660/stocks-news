@@ -26,8 +26,7 @@ export class ListComponent implements OnInit  {
     cssBox:string;
     // Table Column Titles
     columns = [
-        { name: "Headline",width: 700 },
-        { name: "Source",width:50 },
+        { name: "Headline",width: 700 }
     ];
 
 
