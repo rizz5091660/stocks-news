@@ -4,8 +4,10 @@ import { News } from "../class/news";
 export class Stock implements StockInterface{
     ticker:string;
     name:string;
-    openPrice:number;
-    closePrice:number;
-    changesPrice:number;
+    open:number;
+    close:number;
+    changes:number;
+    high:number;
+    low:number;
     listNews: News[]; 
 }

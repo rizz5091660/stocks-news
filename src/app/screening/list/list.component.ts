@@ -63,7 +63,7 @@ export class ListComponent implements OnInit  {
             this.stock = this.stockInterface;
             this.temp = [...this.stock.listNews];
             this.rows = this.stock.listNews;
-            if(this.stock.changesPrice>=0){
+            if(this.stock.changes>=0){
                 this.cssBox="gradient-green-tea";
             }else{
                 this.cssBox="gradient-ibiza-sunset";
